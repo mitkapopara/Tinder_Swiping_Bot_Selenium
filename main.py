@@ -4,8 +4,8 @@ from selenium.common.exceptions import NoSuchElementException, ElementClickInter
 from selenium.webdriver.common.keys import Keys
 import time
 
-FB_EMAIL = "mitp9090@gmail.com"
-FB_PASSWORD = "jack@2050"
+FB_EMAIL = ""
+FB_PASSWORD = ""
 
 service = Service("C:/Users/meet/Desktop/Development/chromedriver.exe")
 driver = webdriver.Chrome(service=service)
